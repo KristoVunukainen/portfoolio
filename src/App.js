@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <img className='main-picture' src="https://www.wrc.com/images/redaktion/Season-2023-NEWS/WRC/January/180123_At-Season-Launch_Cars_04_83dce_f_1400x788.jpg" alt="" />
-      <div className='main-text'><h1>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, ipsam.</h1></div>
+      <div className='main-text'><h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quae. Facilis tempore!</h1></div>
       <div className='rectangle'></div>
 
       <div className='navigation-pictures'>
@@ -26,6 +26,10 @@ function App() {
         <p>Kursuste lehele</p>
         </Link>
       </div>
+      <div className='video'>
+      <iframe width= "560" height="315" src="https://youtu.be/UJBC10MJpHU?t=122" title='Ollie' frameborder="100"></iframe>
+      </div>
+      
       <Routes>
         <Route path='worked' element={ <Worked />}/>
         <Route path='hobbies' element={ <Hobbies />}/>

@@ -1,7 +1,9 @@
-/* .App {
-  background-color: lightgrey;
-  viewport-fit: 100%;
-} */
+.App {
+  margin: 2vh;
+  background-color: beige;
+  background-position: 100vh;
+  padding: 1vh;
+}
 
 
 
@@ -16,20 +18,24 @@
 
 .main-picture {
   height: 200px;
-  width: 40%;
+  width: 50%;
   margin-left: 25%;
   border-radius: 10px;
+  
+  
 }
 
 .navigation-pictures {
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
+
 }
 .navigation-pictures img {
   height: 150px;
   width: 250px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .navigation-pictures img:hover {
@@ -39,9 +45,11 @@
 }
 
 .main-text {
-  width: 100vh;
-  display: flex;
-  align-items: center;
+  display: flex auto;
+  margin-left: 33%;
+  margin-right: 33%;
+ 
+
 }
 
 .main-link {
@@ -56,4 +64,22 @@
   text-decoration: none;
   font-family:Roboto;
 
+}
+button {
+  margin: 1vh;
+  padding: 1vh;
+  width: auto;
+  background-color: rgb(15, 140, 171);
+  border-radius: 5px;
+  border-color: bisque;
+}
+button:hover {
+ transform: scale(1.1);
+ cursor: grab;
+ box-shadow: 10px 5px 5px gray;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
 }
